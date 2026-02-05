@@ -102,3 +102,22 @@ main {
   background-color: #f8d7da;
   color: #721c24;
 }
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.controls button {
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.controls button.active {
+  background-color: #333;
+  color: white;
+}
